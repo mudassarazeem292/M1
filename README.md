@@ -36,3 +36,74 @@ xrange
 Error Handling
 
 future module
+
+# Keywords in Python | Set 1, Set 2
+
+reserved values used as variable name ,function name ,or any other identifier
+these are
+### and
+logical operator
+### as
+used to creat alia name
+### assert
+used for debugging
+### break
+to break a function
+### class 
+to define a class
+### continue
+skip the next iteration of loop
+### define
+to define a function
+### del
+to delete a function
+### else 
+for condition statement
+### elif
+also for conditional statement
+### except
+try except is used to handle these errors
+### false
+for false statement
+### for
+used for loop
+### finaly
+used with exception
+### from
+used for import specific part of module
+### global 
+for global variable
+### if 
+for conditional statement
+### import
+for importing a module
+### is
+to show that two variables are equal
+### in
+to check a value in a function
+### lambda
+to creat anonmyous function
+### none
+to check null value
+### non local 
+for non local variable
+### not 
+logical operator
+### or 
+logical operator
+### pass 
+used when a part we want not to execute
+### raise
+to raisa exception or error
+### return
+used for end the execution 
+### true
+represents an expression that will true
+### try
+used for handling eeror
+### while
+used to execute a block of statement
+### with
+used in exception handling
+### yield
+used to creat a generator function
