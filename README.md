@@ -107,3 +107,12 @@ used to execute a block of statement
 used in exception handling
 ### yield
 used to creat a generator function
+
+# What is namespace:
+these have a unique name for each object in Python. (variable or a method), Python itself maintains a namespace in the form of a Python dictionary. 
+
+# Types of namespaces :
+
+ The built-in namespace encompasses
+the global namespace and
+the global namespace encompasses the local namespace.
