@@ -116,3 +116,14 @@ these have a unique name for each object in Python. (variable or a method), Pyth
  The built-in namespace encompasses
 the global namespace and
 the global namespace encompasses the local namespace.
+
+# What is Statement in Python
+A Python statement is an instruction that the Python interpreter can execute.
+# types of statements 
+ Assignment statements, Conditional statements, Looping statements, etc.
+# What is Indentation in Python
+Whitespace is used for indentation in Python. Unlike many other programming languages which only serve to make the code easier to read
+# What are Comments in Python
+Python comments start with the hash symbol # and continue to the end of the line. Comments in Python are useful information that the developers provide to make the reader understand the source code. It explains the logic or a part of it used in the code. 
+### Docstring in Python
+Python Docstrings are a type of comment that is used to show how the program works. Docstrings in Python are surrounded by Triple Quotes in Python (“”” “””). Docstrings are also neglected by the interpreter.
