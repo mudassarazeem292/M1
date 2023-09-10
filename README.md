@@ -144,3 +144,89 @@ Writing comments in the code are very important and they help in code readabilit
 
 ### Whitespaces as Indentation
 Python’s syntax is quite easy, but still you have to take some care in writing the code. Indentation is used in writing python codes.
+# Structuring Python Programs
+python statements can alter interpreter behavior like conditional statement
+
+1-Implicit Line Continuation
+
+This is the most straightforward technique in writing a statement that spans multiple lines.
+
+2-Explicit Line Continuation
+
+Explicit Line joining is used mostly when implicit line joining is not applicable. In this method, you have to use a character that helps the interpreter to understand that the particular statement is spanning more than one lines.
+
+# Comments in Python
+Writing comments in the code are very important and they help in code readability and also tell more about the code
+
+### Whitespaces as Indentation
+Python’s syntax is quite easy, but still you have to take some care in writing the code. Indentation is used in writing python codes.
+
+## How to check if a string is a valid keyword in Python?
+as kewards are reserving words How to check if a string is a keyword?
+
+Python defines an inbuilt module “keyword” which handles certain operations related to keywords. A function “iskeyword()” checks if a string is a keyword or not. Returns true if a string is a keyword, else returns false. its code is given in py file
+
+## How to assign values to variables in Python and other languages
+in python no need to assign the values instead of c/c++ languages
+
+so the method will be (given in code of single and muilti value assigning values)
+
+direct assigning values
+
+using operator 
+
+## How to print without newline in Python?
+
+in Python 3. x, you can use the end parameter of the print() function. as shown in code
+
+by using for lop and sys module we can also do this
+
+# Desion making
+defines the direction of your code using if else
+
+ we decide what should we do next..
+
+ In Python programming language, the type of control flow statements is:
+
+### The if statement
+
+### The if-else statement
+
+### The nested-if statement
+
+### The if-elif-else ladder
+
+# calculator using python
+code in py file 
+
+# python advantages and applications 
+## advantages
+Presence of third-party modules, having
+Extensive support libraries(NumPy for numerical calculations, Pandas for data analytics, etc.) 
+Open source and large active community base 
+Versatile, Easy to read, learn and write
+User-friendly data structures 
+High-level language 
+Dynamically typed language(No need to mention data type based on the value assigned, it takes data type) 
+Object-Oriented and Procedural  Programming language
+Portable and Interactive
+Ideal for prototypes – provide more functionality with less coding
+Highly Efficient(Python’s clean object-oriented design provides enhanced process control, and the language is equipped with excellent text processing and integration capabilities, as well as its own unit testing framework, which makes it more efficient.)
+Internet of Things(IoT) Opportunities
+Interpreted Language
+Portable across Operating systems 
+
+## application
+
+GUI-based desktop applications,
+Graphic design, image processing applications, Games, and Scientific/ computational Applications,
+Web frameworks and applications ,
+Enterprise and Business applications ,
+Operating Systems ,
+Education,
+Database Access,
+Language Development, 
+Prototyping ,
+Software Development,
+ Data Science and Machine Learning,
+Scripting.
