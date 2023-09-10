@@ -127,3 +127,20 @@ Whitespace is used for indentation in Python. Unlike many other programming lang
 Python comments start with the hash symbol # and continue to the end of the line. Comments in Python are useful information that the developers provide to make the reader understand the source code. It explains the logic or a part of it used in the code. 
 ### Docstring in Python
 Python Docstrings are a type of comment that is used to show how the program works. Docstrings in Python are surrounded by Triple Quotes in Python (“”” “””). Docstrings are also neglected by the interpreter.
+
+# Structuring Python Programs
+python statements can alter interpreter behavior like conditional statement
+
+1-Implicit Line Continuation
+
+This is the most straightforward technique in writing a statement that spans multiple lines.
+
+2-Explicit Line Continuation
+
+Explicit Line joining is used mostly when implicit line joining is not applicable. In this method, you have to use a character that helps the interpreter to understand that the particular statement is spanning more than one lines.
+
+# Comments in Python
+Writing comments in the code are very important and they help in code readability and also tell more about the code
+
+### Whitespaces as Indentation
+Python’s syntax is quite easy, but still you have to take some care in writing the code. Indentation is used in writing python codes.
