@@ -230,3 +230,76 @@ Prototyping ,
 Software Development,
  Data Science and Machine Learning,
 Scripting.
+# Taking input in Python
+ Python provides two inbuilt functions to read the input from the keyboard. 
+ 
+
+input ( prompt ),
+raw_input ( prompt )
+## How the input function works in Python : 
+ 
+
+When input() function executes program flow will be stopped until the user has given input.
+The text  displayed on the output screen to ask a user to enter an input value is optional i.e. the prompt, which will be printed on the screen is optional.
+Whatever you enter as input, the input function converts it into a string. You need to explicitly convert it into an integer in your code using typecasting because input function convert integer to a string.
+
+
+# Taking input from console in Python
+
+### What is Console in Python? 
+Console (also called Shell) is basically a command line interpreter that takes input from the user
+
+### 1. Typecasting the input to Integer: 
+There might be conditions when you might require integer input from the user/Console
+### 2. Typecasting the input to Float:
+ To convert the input to float the following code will work out. 
+### 3. Typecasting the input to String:
+ All kinds of input can be converted to string type whether they are float or integer.
+
+## Python Input Methods for Competitive Programming
+
+as python is a competitive language but slower tha other programming languages like java /C/C++ so to improve the speed of code execution for input/output intensive problems, languages have various input and output methods describe in code.
+
+# Vulnerability in input() method
+
+The vulnerability in input() method lies in the fact that the variable accessing the value of input can be accessed by anyone just by using the name of the variable or method. given in code of different types of vulnerability during raw_input
+
+# Python | Output using print() function
+### Python print() Function Syntax 
+Syntax : print(value(s), sep= ‘ ‘, end = ‘\n’, file=file, flush=flush)
+
+### Parameters: 
+
+value(s): Any value, and as many as you like. Will be converted to a string before printed
+
+sep=’separator’ : (Optional) Specify how to separate the objects, if there is more than one.Default :’ ‘
+
+end=’end’: (Optional) Specify what to print at the end.Default : ‘\n’
+
+file : (Optional) An object with a write method. Default :sys.stdout
+
+flush : (Optional) A Boolean, specifying if the output is flushed (True) or buffered (False). Default: False
+
+Return Type: It returns output to the screen.
+
+# How to print without newline in Python?
+Python has a predefined format if you use print(a_variable) then it will go to the next line automatically.
+## Python end parameter in print()
+By default Python‘s print() function ends with a newline.
+## Python | sep parameter in print()
+The separator between the arguments to print() function in Python is space by default (softspace feature) , which can be modified and can be made to any character, integer or string as per our choice. The ‘sep’ parameter is used to achieve this.
+
+## Python | Output Formatting
+
+In Python, there are several ways to present the output of a program. Data can be printed in a human-readable form, or written to a file for future use, or even in some other specified form. Users often want more control over the formatting of output than simply printing space-separated values.
+
+Output Formatting in Python
+### There are several ways to format output using String Method in Python. 
+
+Using String Modulo Operator(%)
+
+Using Format Method
+
+Using The String Method
+
+Python’s Format Conversion Rule
