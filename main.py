@@ -677,3 +677,273 @@ elif select == 4:
 					divide(number_1, number_2))
 else:
 	print("Invalid input")
+
+
+
+# Taking input in Python
+
+# Python program showing
+# a use of input()
+ 
+# val = input("Enter your value: ")
+# print(val)
+
+# taking string as an input
+
+# name = input('What is your name?\n')	 # \n ---> newline ---> It causes a line break
+# print(name)
+
+# Program to check input
+# type in Python
+ 
+""" num = input ("Enter number :")
+print(num)
+name1 = input("Enter name : ")
+print(name1)
+ 
+# Printing type of input value
+print ("type of number", type(num))
+print ("type of name", type(name1))"""
+
+""" num = int(input("Enter a number: "))
+print(num, " ", type(num))
+
+		
+floatNum = float(input("Enter a decimal number: "))
+print(floatNum, " ", type(floatNum)) """
+
+""" # Typecasting the input to integer
+# input
+input1 = input()
+
+# output
+print(input1)
+# Typecasting the input to float
+# input
+num1 = int(input())
+num2 = int(input())
+
+# printing the sum in integer
+print(num1 + num2)
+
+# input
+num1 = float(input())
+num2 = float(input())
+
+# printing the sum in float
+print(num1 + num2)
+
+# Typecasting the input to String
+# input
+string = str(input())
+
+# output
+print(string)
+
+# Or by default
+string_default = input()
+
+# output
+print(string_default)
+
+
+# Taking multiple inputs from user in Python
+# Python program showing how to
+# multiple input using split
+ 
+# taking two inputs at a time
+x, y = input("Enter two values: ").split()
+print("Number of boys: ", x)
+print("Number of girls: ", y)
+ 
+# taking three inputs at a time
+x, y, z = input("Enter three values: ").split()
+print("Total number of students: ", x)
+print("Number of boys is : ", y)
+print("Number of girls is : ", z)
+ 
+# taking two inputs at a time
+a, b = input("Enter two values: ").split()
+print("First number is {} and second number is {}".format(a, b))
+ 
+# taking multiple inputs at a time
+# and type casting using list() function
+x = list(map(int, input("Enter multiple values: ").split()))
+print("List of students: ", x)
+
+
+# Python Input Methods for Competitive Programming
+# basic method of input output
+# input N
+n = int(input())
+ 
+# input the array
+arr = [int(x) for x in input().split()]
+ 
+# initialize variable
+summation = 0
+ 
+# calculate sum
+for x in arr:
+    summation += x
+     
+# print answer
+print(summation)
+
+# using get_ints()
+import sys
+def get_ints(): return map(int, sys.stdin.readline().strip().split())
+
+a,b,c,d = get_ints()
+
+# using get_list() 
+import sys
+def get_ints(): return list(map(int, sys.stdin.readline().strip().split()))
+
+Arr = get_ints()
+
+# using get_string() 
+import sys
+def get_string(): return sys.stdin.readline().strip()
+
+string = get_string() """
+
+
+# Vulnerability in input() method
+""" # Python 3 to demonstrate difference in input() function
+
+import random
+secret_number = random.randint(1,500)
+print ("Pick a number between 1 to 500")
+while True:
+	res = input("Guess the number: ")
+	if res==secret_number:
+		print ("You win")
+		break
+	else:
+		print ("You lose")
+		continue
+
+# Function name as parameter: 
+
+# Python 2.x program to demonstrate input() function
+# vulnerability by passing function name as parameter
+secret_value = 500
+
+# function that returns the secret value
+def secretfunction():
+	return secret_value
+
+# using raw_input() to enter the number
+input1 = raw_input("Raw_input(): Guess secret number: ")
+
+# input1 will be explicitly converted to a string
+if input1 == secret_value:
+	print "You guessed correct"
+else:
+	print "wrong answer"
+	
+# using input() to enter the number
+input2 = input("Input(): Guess the secret number: ")
+
+#input2 is evaluated as it is entered
+if input2 == secret_value:
+	print "You guessed correct"
+else:
+	print "wrong answer" """
+ 
+# Python | Output using print() function
+""" print(items)name = "John"
+age = 30
+
+# when we are passing two parameter
+print("Name:", name)
+print("Age:", age)
+
+name = "Alice"
+age = 25
+
+print("Hello, my name is", name, "and I am", age, "years old.")
+
+# printing without newline in Python
+# Python 2 code for printing
+# on the same line printing
+# geeks and geeksforgeeks
+# in the same line
+
+# Without newline
+print("geeks"),
+print("geeksforgeeks")
+
+# Array
+a = [1, 2, 3, 4]
+
+# Printing each element on the same line
+for i in xrange(4):
+	print(a[i]),
+
+# Python | end parameter in print()
+
+print('G','F', sep='', end='')
+print('G')
+#\n provides new line after printing the year
+print('09','12','2016', sep='-', end='\n')
+
+print('Red','Green','Blue', sep=',', end='@')
+print('geeksforgeeks')
+
+# Python | sep parameter in print()
+#code for disabling the softspace feature
+print('G','F','G', sep='')
+
+#for formatting a date
+print('09','12','2016', sep='-')
+
+#another example
+print('pratik','geeksforgeeks', sep='@')
+
+# Python | Output Formatting
+
+# Using String Modulo Operator(%)
+# Python program showing how to use string modulo operator(%)
+
+print("Geeks : %2d, Portal : %5.2f" % (1, 05.333))
+
+print("Total students : %3d, Boys : %2d" % (240, 120)) # print integer value
+
+print("%7.3o" % (25)) # print octal value
+
+print("%10.3E" % (356.08977)) # print exponential value
+
+# Using Format Method
+print('I love {} for "{}!"'.format('Geeks', 'Geeks'))
+
+# using format() method and referring a position of the object
+print('{0} and {1}'.format('Geeks', 'Portal'))
+
+print('{1} and {0}'.format('Geeks', 'Portal'))
+
+print(f"I love {'Geeks'} for \"{'Geeks'}!\"")
+
+# using format() method and referring a position of the object
+print(f"{'Geeks'} and {'Portal'}")
+
+# Using The String Method
+cstr = "I love geeksforgeeks"
+
+# Printing the center aligned string with fillchr
+print("Center aligned string with fillchr: ")
+print(cstr.center(40, '#'))
+
+# Printing the left aligned string with "-" padding
+print("The left aligned string is : ")
+print(cstr.ljust(40, '-'))
+
+# Printing the right aligned string with "-" padding
+print("The right aligned string is : ")
+print(cstr.rjust(40, '-'))
+
+# Python’s Format Conversion Rule
+# no code fpr this """
+
+
