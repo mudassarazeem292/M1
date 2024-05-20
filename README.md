@@ -303,3 +303,54 @@ Using Format Method
 Using The String Method
 
 Python’s Format Conversion Rule
+
+
+# Python data type
+
+## Strings
+a single character is simply a string with a length of 1
+## Numbers
+Python int is the whole number, including negative numbers but not fractions
+
+Python Float
+is a real number with a floating-point representation. It is specified by a decimal point
+
+Python Complex
+is a number that consists of real and imaginary parts. For example, 2 + 3j is a complex number where 2 is the real component, and 3 multiplied by j is an imaginary part.
+
+Decimal Numbers in Python so 
+Arithmetic operations on the floating number can give some unexpected results.
+## Booleans
+Python Boolean Type
+The boolean value can be of two types only i.e. either True or False. The output <class ‘bool’> indicates the variable is a boolean data type
+
+## Python List
+Python Lists are just like dynamically sized arrays, declared in other languages (vector in C++ and ArrayList in Java). In simple language, a Python list is a collection of things, enclosed in [ ] and separated by commas.
+## Python Tuples
+Python Tuple is a collection of Python Programming objects much like a list. The sequence of values stored in a tuple can be of any type, and they are indexed by integers.  Values of a tuple are syntactically separated by ‘commas‘. Although it is not necessary, it is more common to define a tuple by closing the sequence of values in parentheses
+## Python Sets
+
+## Python Dictionary
+
+## Python Arrays
+
+## Type Casting
+# Day 0:What is Python? 
+# Day 0:Writing your first Python Program
+# Day 0:Setting up Python
+# Day 0:Getting Started with Python Programming
+# Day 0:Python Input/Output
+# Day 01:Python Data Types
+# Day 02:Python Operators
+# Day 03:Python Conditional Statement
+# Day 04:Python Loops
+# Day 05:Python Functions
+# Day 06:Python OOPs Concepts
+# Day 07:Python Exception Handling
+# Day 08:Python Packages or Libraries
+# Day 09:Python Collections
+# Day 10:Python Database Handling
+# Day 11:Python vs. Other Programming Languages
+# Day 12:Learn More about Python with different Applications
+# Day 13:Python Quiz
+# Day 14:Python Latest & Upcoming Features
