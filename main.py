@@ -946,4 +946,90 @@ print(cstr.rjust(40, '-'))
 # Python’s Format Conversion Rule
 # no code fpr this """
 
+# string data type
+string_0 = "A Computer Science portal for geeks"
+print(string_0)
+print(type(string_0))
 
+# python complex data type
+a = 1 + 5j
+b = 2 + 3j
+
+# Addition
+c = a + b
+print("Addition:",c)
+
+d = 1 + 5j
+e = 2 - 3j
+
+# Subtraction
+f = d - e
+print("Subtraction:",f)
+
+
+g = 1 + 5j
+h = 2 + 3j
+
+# Division
+i = g / h
+print("Division:",i)
+
+
+j = 1 + 5j
+k = 2 + 3j
+
+# Multiplication
+l = j * k
+print("Multiplication:",l)
+
+
+# bolean data type
+# Declaring variables 
+a = 10
+b = 20
+
+# Comparing variables 
+print(a == b)
+
+# Python program to demonstrate 
+# Creation of List 
+
+# Creating a List 
+List = [] 
+print("Blank List: ") 
+print(List) 
+
+# Creating a List of numbers 
+List = [10, 20, 14] 
+print("\nList of numbers: ") 
+print(List) 
+
+# Creating a List of strings and accessing 
+# using index 
+List = ["Geeks", "For", "Geeks"] 
+print("\nList Items: ") 
+print(List[0]) 
+print(List[2]) 
+
+# Creating an empty Tuple
+Tuple1 = ()
+print("Initial empty Tuple: ")
+print(Tuple1)
+
+# Creating a Tuple
+# with the use of string
+Tuple1 = ('Geeks', 'For')
+print("\nTuple with the use of String: ")
+print(Tuple1)
+
+# Creating a Tuple with
+# the use of list
+list1 = [1, 2, 4, 5, 6]
+print("\nTuple using List: ")
+print(tuple(list1))
+
+# Creating a Tuple
+# with the use of built-in function
+Tuple1 = tuple('Geeks')
+print("\nTuple with the use of function: ")
+print(Tuple1)
